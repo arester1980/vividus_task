@@ -1,0 +1,47 @@
+then добавить в UI controls (any) validation
+know-issue
+github create
+
+тестирование trello!!
+expected results
+
+Task 1:
+	a. Setup your own project structure (environment properties)
+	Useful notes: Please see Lecture 1 – slide 25 and Lecture 2 - slide 7
+	b. Create ‘Sign Up’ scenario using page elements steps
+		i. Create several users using ‘Examples tables’
+       ii. Set up some sign up values using expressions (Lecture 2 – slide 28)
+	c. Use API for Trello Board creation
+	Outcome:
+		- Green Allure report with execution of created story
+		- Link to your GitLab repository
+
+Task 2:
+	a. Create ‘Sign In’ scenario
+	b. Verify user Profile
+	c. Move ‘Sign Up’ scenario to precondition
+	Useful notes:
+	https://git.epam.com/valery_yatsynovich/vividus/blob/test_project/demo-tests/src/main/resources/story/test/batch1/Story1_Precondition_Steps_Regex_JSON_Composite.story#L6
+	d. Navigate to 5 pages (any page can be selected using different page elements steps) and add visual check for each of them (Lecture 2 – slide 32)
+	Outcome:
+	- Green Allure report with execution of created story
+	- Link to your GitLab repository
+
+Task 3:
+	- Move several checks from previous tasks to composite steps (Lecture 2 – slide 23)
+	- Create ‘UI controls (any) validation’ scenario:
+		i. check presence of some elements (Lecture 2 – slide 20)
+	   ii. add some verifications for these elements if they exist on the page (please use Nested steps)
+	Outcome:
+	- Green Allure report with execution of created story
+	- Link to your GitLab repository
+
+Task 4*:
+Important note: in case if all previous tasks are completed without mistakes, total score for 1-3 tasks is 5 points and completion of Task 4 is extra points
+	a. Design steps to fail intentionally. Add Known issues for these failures (Lecture 2 – slide 30)
+	b. Ignore some elements from visual checks. And justify your choice (Lecture 2 – slide 33)
+	c. Update/Create composite step to work with parameters (Lecture 2 – slide 23)
+	d. Vote for https://github.com/vividus-framework/vividus
+	Expected Result:
+		- Green Allure report with execution of created story
+		- Link to your GitLab repository 
