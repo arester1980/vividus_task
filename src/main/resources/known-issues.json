@@ -1,9 +1,9 @@
 {
-	"TEST-200": {
-		"type": "Internal",
-		"assertionPattern": "Visual check passed.*",
-		"storyPattern": "5steps",
-		"scenarioPattern": "Fife steps visual",
-		"stepPattern": "When I wait.*"
-		}
+    "TEST-200": {
+        "type": "Internal",
+        "assertionPattern": "Visual check passed.*",
+        "storyPattern": "5steps",
+        "scenarioPattern": "Fife steps visual",
+        "stepPattern": "When I wait.*"
+        }
 }

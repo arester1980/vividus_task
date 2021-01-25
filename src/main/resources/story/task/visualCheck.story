@@ -1,7 +1,7 @@
-GivenStories: story/precondition/precondition.story
-
-Scenario: Fife steps visual
+Scenario: Visual check
 When I wait until element located `By.xpath(//button[@data-test-id="header-member-menu-button"])` appears
+When I scroll to the end of the page
+When I scroll to the start of the page
 When I wait <element> and compare <screen> and click on <link>
 Examples:
 |element                                                    |screen            |link                                               |
